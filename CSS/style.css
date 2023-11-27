@@ -216,17 +216,35 @@ footer {
     padding-left: 20px;
 }
 
-@media (max-width:500px) {
+@media (max-width:800px) {
     img {
         width: 300px;
     }
     .img {
-        width: 300px
+        width: 200px
     }
     .img2 {
-        width: 300px
+        width: 200px
     }
-    .navbar-brand {
-        width: 300px;
+    .logo {
+        width: 200px;
     }
+    #formulario {
+        padding: 0;
+        align-items: center;
+    }
+    input{
+        font-size: 20px;
+    }
+    .campos {
+        width: 100%;
+    }
+    .pForm {
+        padding: 0;
+    }
+    h2 {
+        padding: 10px;
+        font-size: 40px;
+    }
+
 }
