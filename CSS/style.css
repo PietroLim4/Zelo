@@ -226,4 +226,7 @@ footer {
     .img2 {
         width: 300px
     }
+    .navbar-brand {
+        width: 300px;
+    }
 }
