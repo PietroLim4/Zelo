@@ -216,7 +216,7 @@ footer {
     padding-left: 20px;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1500px) {
     img {
         width: 300px;
     }
