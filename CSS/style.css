@@ -196,39 +196,52 @@ footer {
     padding-left: 20px;
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
     img {
         width: 300px;
     }
+
     .img {
         width: 200px
     }
+
     .img2 {
         width: 200px
     }
+
     .logo {
         width: 200px;
     }
+
     #formulario {
         padding: 0;
         align-items: center;
     }
-    input{
+
+    input {
         font-size: 20px;
     }
+
+    span {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
     .campos {
         width: 100%;
     }
+
     .pForm {
         padding: 0;
     }
+
     h2 {
         padding: 10px;
         font-size: 40px;
     }
-    
-.envio {
-    margin-left: 35%;
-}
+
+    .envio {
+        margin-left: 40%;
+    }
 
 }
