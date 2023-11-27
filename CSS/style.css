@@ -107,26 +107,6 @@ strong {
     color: var(--cormarrom);
 }
 
-.contrate {
-    text-decoration: none;
-    background-color: var(--corrose);
-    border: solid 1px var(--cormarrom);
-    color: var(--cormarrom);
-    border-radius: 70px;
-    padding: 5px;
-    display: inline-block;
-    margin-left: 30%;
-    font-size: 30px;
-}
-
-.contrate:hover {
-    color: var(--corrose);
-    background-color: var(--cormarrom);
-    border: var(--corcinza);
-    transition: 1s;
-    border: solid 1px var(--corrose);
-}
-
 #parceiros {
     margin-top: 4%;
 }
@@ -192,7 +172,7 @@ input {
 }
 
 .envio {
-    margin-left: 30%;
+    margin-left: 45%;
 }
 
 footer p {
@@ -216,7 +196,7 @@ footer {
     padding-left: 20px;
 }
 
-@media (max-width:1500px) {
+@media (max-width:800px) {
     img {
         width: 300px;
     }
@@ -246,5 +226,9 @@ footer {
         padding: 10px;
         font-size: 40px;
     }
+    
+.envio {
+    margin-left: 35%;
+}
 
 }
